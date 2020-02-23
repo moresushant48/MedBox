@@ -108,6 +108,7 @@
     <Content Include="About.aspx" />
     <Content Include="AccountInfo.aspx" />
     <Content Include="addMedicine.aspx" />
+    <Content Include="AddRequest.aspx" />
     <Content Include="adminPanel.aspx" />
     <Content Include="footer.ascx" />
     <Content Include="forgotPassword.aspx" />
@@ -158,6 +159,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="viewMedicine.aspx" />
+    <Content Include="ViewRequests.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
   </ItemGroup>
@@ -175,6 +177,13 @@
     </Compile>
     <Compile Include="addMedicine.aspx.designer.cs">
       <DependentUpon>addMedicine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddRequest.aspx.cs">
+      <DependentUpon>AddRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddRequest.aspx.designer.cs">
+      <DependentUpon>AddRequest.aspx</DependentUpon>
     </Compile>
     <Compile Include="adminPanel.aspx.cs">
       <DependentUpon>adminPanel.aspx</DependentUpon>
@@ -265,6 +274,13 @@
     </Compile>
     <Compile Include="viewMedicine.aspx.designer.cs">
       <DependentUpon>viewMedicine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewRequests.aspx.cs">
+      <DependentUpon>ViewRequests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewRequests.aspx.designer.cs">
+      <DependentUpon>ViewRequests.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

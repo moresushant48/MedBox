@@ -25,6 +25,8 @@ namespace OnlineMedicineDonation
                 btnLogout.Visible = true;
                 liMyAccount.Visible = true;
                 liAddMedicine.Visible = true;
+                //liDonations.Visible = true;
+                
 
                 /*
                  Admin Navigation
@@ -47,6 +49,7 @@ namespace OnlineMedicineDonation
                 liMyAccount.Visible = false;
                 liAddMedicine.Visible = false;
                 liAdminPanel.Visible = false;
+                //liDonations.Visible = false;
             }
 
         }
