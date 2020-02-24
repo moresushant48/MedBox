@@ -7,8 +7,11 @@
         <ul class="navbar-nav mr-auto ml-4">
             <li class="nav-item" id="liLogin" runat="server"><asp:Button ID="btnViewCustomer" runat="server" CssClass="btn btn-light nav-link p-2" Text="View Customers" OnClick="btnViewCustomer_Click"></asp:Button></li>
             <li class="nav-item" id="liDonRequest" runat="server"><asp:Button ID="btnDonRequests" runat="server" CssClass="btn btn-light nav-link p-2" Text="View Donation Requests" OnClick="btnDonRequests_Click"></asp:Button></li>
+<<<<<<< HEAD
             <li class="nav-item" id="liMedRequest" runat="server"><asp:Button ID="btnMedRequests" runat="server" CssClass="btn btn-light nav-link p-2" Text="View Medicine Requests" OnClick="btnMedRequests_Click"></asp:Button></li>
             <li class="nav-item" id="liDisaster" runat="server"><asp:Button ID="btnDisasters" runat="server" CssClass="btn btn-light nav-link p-2" Text="Add Disaster Ads" OnClick="btnDisasters_Click"></asp:Button></li>
+=======
+>>>>>>> 1bc938adc5e3fdaf6f7afc812415981829d12477
         </ul>
     </nav>
 
@@ -49,6 +52,7 @@
                                         <div class="row mx-2">
                                             <h5 class="col"><%# Eval("id") %></h5>
                                             <h5 class="col"><%# Eval("title") %></h5>
+<<<<<<< HEAD
                                             <h5 class="col"><%# Eval("description") %></h5>
                                             <h5 class="col"><%# Eval("goal") %></h5>
                                             <h5 class="col"><%# Eval("status") %></h5>
@@ -58,11 +62,22 @@
                                         </div>
                                     </div>
                                 </ItemTemplate>   
+=======
+                                            <h5 class="col"><%# Eval("desc") %></h5>
+                                            <h5 class="col"><%# Eval("goal") %></h5>
+                                            <h5 class="col"><%# Eval("status") %></h5>
+                                            <asp:HyperLink ID="lnkApprove" runat="server" NavigateUrl='<%# Eval("id", "/adminPanel.aspx?approve={0}") %>'><i class="fa fa-check fa-lg text-danger"></i></asp:HyperLink>
+                                            <asp:HyperLink ID="lnkDeny" runat="server" NavigateUrl='<%# Eval("id", "/adminPanel.aspx?deny={0}") %>'><i class="fa fa-times fa-lg text-danger"></i></asp:HyperLink>
+                                        </div>
+                                    </div>
+                                </ItemTemplate>
+>>>>>>> 1bc938adc5e3fdaf6f7afc812415981829d12477
                             </asp:TemplateField>
                         </Columns>
                     </asp:GridView>
                 </div>
             </div>
+<<<<<<< HEAD
         </asp:View>
 
         <asp:View ID="View3" runat="server">
@@ -92,6 +107,8 @@
                 </div>
             </div>
 
+=======
+>>>>>>> 1bc938adc5e3fdaf6f7afc812415981829d12477
         </asp:View>
 
         <asp:View ID="View4" runat="server">

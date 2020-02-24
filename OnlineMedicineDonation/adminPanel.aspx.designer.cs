@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace OnlineMedicineDonation {
-    
-    
-    public partial class adminPanel {
-        
+namespace OnlineMedicineDonation
+{
+
+
+    public partial class adminPanel
+    {
+
         /// <summary>
         /// liLogin control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace OnlineMedicineDonation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liLogin;
-        
+
         /// <summary>
         /// btnViewCustomer control.
         /// </summary>
@@ -29,7 +31,25 @@ namespace OnlineMedicineDonation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnViewCustomer;
-        
+
+        /// <summary>
+        /// liDonRequest control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liDonRequest;
+
+        /// <summary>
+        /// btnDonRequests control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnDonRequests;
+
         /// <summary>
         /// liDonRequest control.
         /// </summary>
@@ -92,7 +112,7 @@ namespace OnlineMedicineDonation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.MultiView MultiView1;
-        
+
         /// <summary>
         /// View1 control.
         /// </summary>
@@ -101,7 +121,7 @@ namespace OnlineMedicineDonation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.View View1;
-        
+
         /// <summary>
         /// GridView1 control.
         /// </summary>
@@ -110,7 +130,7 @@ namespace OnlineMedicineDonation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GridView1;
-        
+
         /// <summary>
         /// View2 control.
         /// </summary>
@@ -119,7 +139,16 @@ namespace OnlineMedicineDonation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.View View2;
-        
+
+        /// <summary>
+        /// GridView2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridView2;
+
         /// <summary>
         /// GridView2 control.
         /// </summary>

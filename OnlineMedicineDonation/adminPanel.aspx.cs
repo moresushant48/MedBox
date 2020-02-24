@@ -74,6 +74,23 @@ namespace OnlineMedicineDonation
             }
         }
 
+        private void feedDonationRequest()
+        {
+
+            using (SqlConnection con = new SqlConnection(login.conString))
+            {
+
+                con.Open();
+                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("SELECT * FROM donations", con);
+
+                DataTable dataTable = new DataTable();
+                sqlDataAdapter.Fill(dataTable);
+                GridView2.DataSource = dataTable;
+                GridView2.DataBind();
+
+            }
+        }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["userId"].ToString() != 1.ToString())
@@ -189,6 +206,7 @@ namespace OnlineMedicineDonation
             MultiView1.ActiveViewIndex = 1;
             feedDonationRequest();
         }
+<<<<<<< HEAD
 
         protected void btnMedRequests_Click(object sender, EventArgs e)
         {
@@ -259,5 +277,7 @@ namespace OnlineMedicineDonation
         }
 
         
+=======
+>>>>>>> 1bc938adc5e3fdaf6f7afc812415981829d12477
     }
 }

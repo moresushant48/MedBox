@@ -25,9 +25,13 @@ namespace OnlineMedicineDonation
                 btnLogout.Visible = true;
                 liMyAccount.Visible = true;
                 liAddMedicine.Visible = true;
+<<<<<<< HEAD
                 liDonations.Visible = true;
                 liMyMedicines.Visible = true;
                 liUserEmail.Visible = true;
+=======
+                //liDonations.Visible = true;
+>>>>>>> 1bc938adc5e3fdaf6f7afc812415981829d12477
                 
 
                 /*
@@ -55,9 +59,13 @@ namespace OnlineMedicineDonation
                 liMyAccount.Visible = false;
                 liAddMedicine.Visible = false;
                 liAdminPanel.Visible = false;
+<<<<<<< HEAD
                 liDonations.Visible = false;
                 liMyMedicines.Visible = false;
                 liUserEmail.Visible = false;
+=======
+                //liDonations.Visible = false;
+>>>>>>> 1bc938adc5e3fdaf6f7afc812415981829d12477
             }
 
         }

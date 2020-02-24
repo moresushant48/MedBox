@@ -6,8 +6,11 @@
     <asp:MultiView ID="MultiView1" runat="server">
 
         <asp:View ID="View1" runat="server">
+<<<<<<< HEAD
 
             <p class="h3 alert alert-dark text-center m-3">You are free to donate with any amount of money.</p>
+=======
+>>>>>>> 1bc938adc5e3fdaf6f7afc812415981829d12477
         
         <div class="p-4">
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" CssClass="gridview w-100 container-fluid" GridLines="None">
@@ -18,11 +21,17 @@
 
                             <div class="row mx-2">
                                 <h5 class="col"><%# Eval("title") %></h5>
+<<<<<<< HEAD
                                 <h5 class="col"><%# Eval("description") %></h5>
                                 <h5 class="col"><%# Eval("goal") %> Rs.</h5>
 
                                 <asp:HyperLink ID="lnkUserProfile" Text="User" CssClass="" runat="server" Target="_blank" NavigateUrl='<%# Eval("user_id", "/ViewUser.aspx?userId={0}") %>'></asp:HyperLink>
                                 <asp:HyperLink ID="lnkDonate" Text="Donate" CssClass="ml-3" runat="server" NavigateUrl='<%# Eval("id", "/ViewRequests.aspx?donId={0}") %>'></asp:HyperLink>
+=======
+                                <h5 class="col"><%# Eval("desc") %></h5>
+                                <h5 class="col"><%# Eval("goal") %> Qty.</h5>
+                                <asp:HyperLink ID="lnkDonate" Text="Donate" runat="server" NavigateUrl='<%# Eval("id", "/viewMedicine.aspx?medId={0}") %>'></asp:HyperLink>
+>>>>>>> 1bc938adc5e3fdaf6f7afc812415981829d12477
                             </div>
                         
                         </div>
@@ -36,6 +45,7 @@
 
         <asp:View ID="View2" runat="server">
 
+<<<<<<< HEAD
             <div class="border border-light bg-light mx-auto p-lg-4 p-4 mt-4 form-size rounded">
                 <p class="h2 mb-4">Donation Options</p>
             
@@ -52,6 +62,11 @@
                     <asp:Button ID="btnDonate" runat="server" Text="Donate"  CssClass="btn btn-primary" OnClick="btnDonate_Click"/>
                 </div>
             </div>
+=======
+        </asp:View>
+
+        <asp:View ID="View3" runat="server">
+>>>>>>> 1bc938adc5e3fdaf6f7afc812415981829d12477
 
         </asp:View>
 

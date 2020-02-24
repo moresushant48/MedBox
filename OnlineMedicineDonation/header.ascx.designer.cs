@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace OnlineMedicineDonation {
-    
-    
-    public partial class header {
-        
+namespace OnlineMedicineDonation
+{
+
+
+    public partial class header
+    {
+
         /// <summary>
         /// liHome control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace OnlineMedicineDonation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liHome;
-        
+
         /// <summary>
         /// liLogin control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace OnlineMedicineDonation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liLogin;
-        
+
         /// <summary>
         /// liRegister control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace OnlineMedicineDonation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liRegister;
-        
+
         /// <summary>
         /// liAddMedicine control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace OnlineMedicineDonation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liAddMedicine;
-        
+
         /// <summary>
         /// liGetMedicines control.
         /// </summary>
@@ -56,7 +58,16 @@ namespace OnlineMedicineDonation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liGetMedicines;
-        
+
+        /// <summary>
+        /// liDonations control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liDonations;
+
         /// <summary>
         /// liMyMedicines control.
         /// </summary>
@@ -83,7 +94,7 @@ namespace OnlineMedicineDonation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liAdminPanel;
-        
+
         /// <summary>
         /// liMyAccount control.
         /// </summary>
@@ -92,7 +103,7 @@ namespace OnlineMedicineDonation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl liMyAccount;
-        
+
         /// <summary>
         /// btnLogout control.
         /// </summary>

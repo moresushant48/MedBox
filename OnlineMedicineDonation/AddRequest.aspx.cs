@@ -13,8 +13,13 @@ namespace OnlineMedicineDonation
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (Session["userId"] == null)
                 Response.Redirect("/");
+=======
+            //if (Session["userId"] == null)
+            //    Response.Redirect("/");
+>>>>>>> 1bc938adc5e3fdaf6f7afc812415981829d12477
         }
 
         protected void btnSubmit_Click(object sender, EventArgs e)
@@ -46,7 +51,11 @@ namespace OnlineMedicineDonation
             }
             else
             {
+<<<<<<< HEAD
                 Response.Redirect("/AddRequest.aspx");
+=======
+                Response.Redirect("/addMedicine.aspx");
+>>>>>>> 1bc938adc5e3fdaf6f7afc812415981829d12477
             }
         }
     }

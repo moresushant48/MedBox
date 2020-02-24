@@ -18,7 +18,10 @@
             <li class="nav-item" id="liRegister" runat="server"><asp:HyperLink runat="server" NavigateUrl="~/register.aspx" CssClass="btn btn-dark nav-link" Text="Register"></asp:HyperLink></li>
             <li class="nav-item" id="liAddMedicine" runat="server"><asp:HyperLink runat="server" NavigateUrl="~/addMedicine.aspx" CssClass="btn btn-dark nav-link" Text="Add Medicine"></asp:HyperLink></li>
             <li class="nav-item" id="liGetMedicines" runat="server"><asp:HyperLink runat="server" NavigateUrl="~/getMedicines.aspx" CssClass="btn btn-dark nav-link" Text="Get Medicine"></asp:HyperLink></li>
+<<<<<<< HEAD
             <li class="nav-item" id="liMyMedicines" runat="server"><asp:HyperLink runat="server" NavigateUrl="~/myMedicines.aspx" CssClass="btn btn-dark nav-link" Text="My Medicines"></asp:HyperLink></li>
+=======
+>>>>>>> 1bc938adc5e3fdaf6f7afc812415981829d12477
             
             <li class="nav-item dropdown show" id="liDonations" runat="server">
                 <a class="btn btn-dark nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

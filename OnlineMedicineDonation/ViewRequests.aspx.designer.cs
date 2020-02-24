@@ -7,11 +7,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+<<<<<<< HEAD
 namespace OnlineMedicineDonation {
     
     
     public partial class ViewRequests {
         
+=======
+namespace OnlineMedicineDonation
+{
+
+
+    public partial class ViewRequests
+    {
+
+>>>>>>> 1bc938adc5e3fdaf6f7afc812415981829d12477
         /// <summary>
         /// MultiView1 control.
         /// </summary>
@@ -20,7 +30,11 @@ namespace OnlineMedicineDonation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.MultiView MultiView1;
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 1bc938adc5e3fdaf6f7afc812415981829d12477
         /// <summary>
         /// View1 control.
         /// </summary>
@@ -29,7 +43,11 @@ namespace OnlineMedicineDonation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.View View1;
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 1bc938adc5e3fdaf6f7afc812415981829d12477
         /// <summary>
         /// GridView1 control.
         /// </summary>
@@ -38,7 +56,11 @@ namespace OnlineMedicineDonation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GridView1;
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 1bc938adc5e3fdaf6f7afc812415981829d12477
         /// <summary>
         /// View2 control.
         /// </summary>
@@ -47,6 +69,7 @@ namespace OnlineMedicineDonation {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.View View2;
+<<<<<<< HEAD
         
         /// <summary>
         /// cblPaymentOptions control.
@@ -68,11 +91,20 @@ namespace OnlineMedicineDonation {
         
         /// <summary>
         /// btnDonate control.
+=======
+
+        /// <summary>
+        /// View3 control.
+>>>>>>> 1bc938adc5e3fdaf6f7afc812415981829d12477
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.Button btnDonate;
+=======
+        protected global::System.Web.UI.WebControls.View View3;
+>>>>>>> 1bc938adc5e3fdaf6f7afc812415981829d12477
     }
 }
